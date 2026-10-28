@@ -1,0 +1,1 @@
+# MI-vezerelt-IT-folyamatautomatizacic-ServiceNow-val
