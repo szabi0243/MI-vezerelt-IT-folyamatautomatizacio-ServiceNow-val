@@ -2,7 +2,7 @@
 
 # MI-vezérelt IT folyamatautomatizációs mikroszolgáltatás ServiceNow integrációval
 
-> **MI-jelölés:** ezt a dokumentumot a **Claude Opus 5.5** (`claude-opus-5-5`) modell írta 2026-10-31-én, a projekt forrásfájljai alapján. A forráskódot és a teszteket **Gyöngyösi Szabolcs** írta 2026 októberében, MI-generálás nélkül. Részletek: [MI-használat nyilvántartása](#mi-használat-nyilvántartása).
+> **MI-jelölés:** ezt a dokumentumot a **Claude Opus 5.5** (`claude-opus-5-5`) modell írta 2026-10-31-én, a projekt forrásfájljai alapján. A forráskódot és a teszteket **Gyöngyösi Szabolcs** írta 2026 októberében Részletek: [MI-használat nyilvántartása](#mi-használat-nyilvántartása).
 
 Ez egy FastAPI-alapú mikroszolgáltatás, amely a ServiceNow-ban létrejövő incidenseket webhookon keresztül fogadja, és nagy nyelvi modellel (Claude) triázsolja őket. Meghatározza a kategóriát, a prioritást és a felelős csoportot, majd az eredményt munkajegyzetként visszaírja a jegybe. Egyszerű, tudásbázis-cikkel (KB) lefedett esetekben, szigorú biztonsági kapuk mögött, a jegyet automatikusan meg is oldhatja.
 
